@@ -1,2 +1,1 @@
-# sentinel-whitelabel-sdk
-Sentinel Whitelabel SDK
+# Sentinel Whitelabel SDK
