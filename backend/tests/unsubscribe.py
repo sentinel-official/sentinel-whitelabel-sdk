@@ -1,8 +1,11 @@
+# pip3 install cosmpy
+# pip3 install sentinel-protobuf
+
 from cosmpy.aerial.client import LedgerClient, NetworkConfig
 from bip_utils import Bip39SeedGenerator, Bip44, Bip44Coins
 from cosmpy.aerial.wallet import LocalWallet
 from cosmpy.crypto.keypairs import PrivateKey
-from sentinel_protobuf.sentinel.subscription.v2.msg_pb2 import MsgCancelRequest, MsgCancelResponse
+from sentinel_protobuf.sentinel.subscription.v1.msg_pb2 import MsgCancelRequest, MsgCancelResponse
 from cosmpy.aerial.tx import Transaction
 from cosmpy.aerial.client.utils import prepare_and_broadcast_basic_transaction
 
